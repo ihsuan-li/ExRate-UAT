@@ -1,0 +1,90 @@
+
+[ERROR]2025-03-27 14:13:32.4993
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:13:33.5016
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:13:34.8349
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:13:35.5853
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:13:45.5622
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:13:51.0027
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:13:52.5256
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:13:57.4978
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:14:04.5015
+[ERROR]查詢匯率日期::失敗:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+[ERROR]2025-03-27 14:15:15.7562
+[ERROR]取得連線至DB-[TRMDDB]的連線資訊::錯誤:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:15:32.8646
+[ERROR]取得當日所有匯率::錯誤:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+[ERROR]2025-03-27 14:15:32.9060
+[ERROR]Exception at GetRateJob.Invoke()
+
+[ERROR]2025-03-27 14:15:34.0526
+[ERROR]查詢匯率日期::失敗:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+[ERROR]2025-03-27 14:20:48.4566
+[ERROR]取得連線至DB-[TRMDDB]的連線資訊::錯誤:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+[ERROR]2025-03-27 14:21:05.4397
+[ERROR]取得當日所有匯率::錯誤:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+[ERROR]2025-03-27 14:21:05.4445
+[ERROR]Exception at GetRateJob.Invoke()
+
+[ERROR]2025-03-27 14:24:07.9808
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:24:09.0227
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:24:09.6555
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:24:11.2636
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:25:02.4902
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:25:04.6562
+[ERROR]查詢匯率日期::失敗:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+[ERROR]2025-03-27 14:25:04.6562
+[ERROR]取得連線至DB-[TRMDDB]的連線資訊::錯誤:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+[ERROR]2025-03-27 14:25:21.7139
+[ERROR]取得當日所有匯率::錯誤:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+
+[ERROR]2025-03-27 14:25:21.7403
+[ERROR]Exception at GetRateJob.Invoke()
+
+[ERROR]2025-03-27 14:27:58.0078
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:27:59.0316
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:28:00.0165
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:28:00.6972
+[ERROR]查詢匯率日期::失敗:Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+
+[ERROR]2025-03-27 14:55:52.0642
+[ERROR]查詢匯率日期::失敗:A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)

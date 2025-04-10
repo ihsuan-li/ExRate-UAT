@@ -1,0 +1,14 @@
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\bin\Debug\net6.0\CDFHEXRETE.Common.deps.json
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\bin\Debug\net6.0\CDFHEXRETE.Common.runtimeconfig.json
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\bin\Debug\net6.0\CDFHEXRETE.Common.dll
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\bin\Debug\net6.0\CDFHEXRETE.Common.pdb
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\obj\Debug\net6.0\CDFHEXRETE.Common.csproj.AssemblyReference.cache
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\obj\Debug\net6.0\CDFHEXRETE.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\obj\Debug\net6.0\CDFHEXRETE.Common.AssemblyInfoInputs.cache
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\obj\Debug\net6.0\CDFHEXRETE.Common.AssemblyInfo.cs
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\obj\Debug\net6.0\CDFHEXRETE.Common.csproj.CoreCompileInputs.cache
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\obj\Debug\net6.0\CDFHEXRETE.Common.dll
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\obj\Debug\net6.0\refint\CDFHEXRETE.Common.dll
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\obj\Debug\net6.0\CDFHEXRETE.Common.pdb
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\obj\Debug\net6.0\CDFHEXRETE.Common.genruntimeconfig.cache
+D:\Workspace\Projects\中華開發金控\開發金-匯率查詢系統\#Developement\CDFHEXRETE\CDFHEXRETE.Common\obj\Debug\net6.0\ref\CDFHEXRETE.Common.dll

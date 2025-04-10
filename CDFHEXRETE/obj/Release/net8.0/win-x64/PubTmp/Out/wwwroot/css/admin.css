@@ -1,0 +1,46 @@
+﻿input[type="checkbox"]:checked + a {
+    color: white !important;
+    background-color: #04327a;
+}
+
+input[type="checkbox"] + a {
+    color: #04327a !important;
+    background-color: transparent;
+    border-color: #04327a;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #04327a;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #5a5c69;
+    border-color: #6c6e7e;
+    text-align: center;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btnDate {
+    border-color: transparent !important;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    transition: color .15s;
+}
+
+    .btnDate:hover {
+        background-color: transparent !important;
+        color: #0d6efd !important;
+        border-color: #0d6efd !important;
+    }
+

@@ -1,0 +1,59 @@
+﻿@model LayoutModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - 匯率查詢系統</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <link href="~/css/admin.css?ver=@DateTime.Now.ToString("yyyyMMddHHmmss")" rel="stylesheet">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                @{
+                    var ComCode = User.Claims.FirstOrDefault(X => X.Type == "ComCode")?.Value;
+                    var logofile = ComCode + "CDFH_logo.png";
+                    <label style="display: none" id="claim-ComCode">@ComCode</label>
+                }
+                <IMG src="/Images/@logofile" id="logo" onerror="javascript:this.src='/Images/CDFH_logo.png'" class="logo">
+
+                <div class="d-flex wrapper">
+                    <div class="d-flex sidebar" style="margin:0 25px 0 25px;">
+                        <label id="rate_type" style="display:none">@Model.type</label>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item" tabindex="1">
+                                <input type="checkbox" style="display:none" checked=@(@Model.type == "opening" ? true : false) />
+                                <a id="opening" asp-route-type="opening" name="opening" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">早盤匯率</a>
+                            </li>
+                            <li class="nav-item" tabindex="2">
+                                <input type="checkbox" style="display:none" checked=@(@Model.type == "closing" ? true : false) />
+                                <a id="closing" asp-route-type="closing" name="closing" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">收盤匯率</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            @*&copy; 2023 - CDFHEXRETE - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>*@
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
