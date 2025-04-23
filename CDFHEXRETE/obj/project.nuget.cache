@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zaD4iy96AMs=",
+  "dgSpecHash": "S7TEe46oCuE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\CDFHEXRETE.csproj",
+  "projectFilePath": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\CDFHEXRETE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cdibi055\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\cdibi055\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

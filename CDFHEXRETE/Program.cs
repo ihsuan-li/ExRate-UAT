@@ -4,6 +4,7 @@ using CDFHEXRETE.Common;
 using CDFHEXRETE.Common.Extensions;
 using CDFHEXRETE.Common.Repository;
 using CDFHEXRETE.Extensions;
+using CDFHEXRETE.Interfaces;
 using CDFHEXRETE.Invocables;
 using CDFHEXRETE.Middleware;
 using CDFHEXRETE.Models;
@@ -56,7 +57,11 @@ builder.Services.AddTransient<DBContext>();
 #region 系統介面服務初始化
 builder.Services.AddDiContainer();
 #endregion
+// 添加 HttpClient 服務
+builder.Services.AddHttpClient();
 
+// 註冊 AAMService
+builder.Services.AddScoped<IAAMService, AAMService>();
 
 // Add services to the container.
 builder.Services.AddTransient<ScheduleRateService>();

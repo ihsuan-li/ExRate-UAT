@@ -3278,11 +3278,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj",
       "projectName": "CDFHEXRATE.Repository",
-      "projectPath": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj",
+      "projectPath": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj",
       "packagesPath": "C:\\Users\\cdibi055\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\obj\\",
+      "outputPath": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRATE.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

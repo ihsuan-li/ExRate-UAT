@@ -1,77 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\",
+  "WorkspaceRootPath": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cdibi055\\Desktop\\Ma2025-04-02\\appsettings.Staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C393292F-26A0-4ABE-BFF1-78387F0D4DFC}|CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrate.repository\\sqlscripts\\storeprocedures\\usp_getallexratedata.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{C393292F-26A0-4ABE-BFF1-78387F0D4DFC}|CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj|solutionrelative:cdfhexrate.repository\\sqlscripts\\storeprocedures\\usp_getallexratedata.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C393292F-26A0-4ABE-BFF1-78387F0D4DFC}|CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrate.repository\\sqlscripts\\tables\\exrate_src.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{C393292F-26A0-4ABE-BFF1-78387F0D4DFC}|CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj|solutionrelative:cdfhexrate.repository\\sqlscripts\\tables\\exrate_src.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C393292F-26A0-4ABE-BFF1-78387F0D4DFC}|CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrate.repository\\sqlscripts\\tables\\exrate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{C393292F-26A0-4ABE-BFF1-78387F0D4DFC}|CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj|solutionrelative:cdfhexrate.repository\\sqlscripts\\tables\\exrate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C393292F-26A0-4ABE-BFF1-78387F0D4DFC}|CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrate.repository\\models\\exrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C393292F-26A0-4ABE-BFF1-78387F0D4DFC}|CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj|solutionrelative:cdfhexrate.repository\\models\\exrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C393292F-26A0-4ABE-BFF1-78387F0D4DFC}|CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrate.repository\\contexts\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C393292F-26A0-4ABE-BFF1-78387F0D4DFC}|CDFHEXRATE.Repository\\CDFHEXRATE.Repository.csproj|solutionrelative:cdfhexrate.repository\\contexts\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\dtos\\resdtos\\reshomerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\dtos\\resdtos\\reshomerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\services\\schedulerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\desktop\\cdfhexrete\\cdfhexrete\\services\\schedulerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\services\\schedulerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\invocables\\getratejob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\invocables\\getratejob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\desktop\\cdfhexrete\\cdfhexrete\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\desktop\\cdfhexrete\\cdfhexrete\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\interfaces\\ischedulerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\interfaces\\ischedulerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\desktop\\cdfhexrete\\cdfhexrete\\services\\aamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\services\\aamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\desktop\\cdfhexrete\\cdfhexrete\\interfaces\\iaamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\interfaces\\iaamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\desktop\\cdfhexrete\\cdfhexrete\\models\\aamsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\models\\aamsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\desktop\\cdfhexrete\\cdfhexrete\\models\\aaminfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\models\\aaminfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\desktop\\cdfhexrete\\cdfhexrete\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\desktop\\cdfhexrete\\cdfhexrete\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\wwwroot\\js\\home.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\desktop\\cdfhexrete\\cdfhexrete\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|c:\\users\\cdibi055\\downloads\\cdfhexrete-sourcecode-2025-03-27\\cdfhexrete\\cdfhexrete\\services\\homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4F4BDD0D-8464-466D-BCEC-ADF29239B827}|CDFHEXRETE\\CDFHEXRETE.csproj|solutionrelative:cdfhexrete\\services\\homeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,195 +50,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 373,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Staging.json",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\Ma2025-04-02\\appsettings.Staging.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Ma2025-04-02\\appsettings.Staging.json",
-              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\Ma2025-04-02\\appsettings.Staging.json",
-              "RelativeToolTip": "..\\..\\..\\Desktop\\Ma2025-04-02\\appsettings.Staging.json",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-02T08:43:21.079Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "usp_GetAllExRateData.sql",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\SqlScripts\\StoreProcedures\\usp_GetAllExRateData.sql",
-              "RelativeDocumentMoniker": "CDFHEXRATE.Repository\\SqlScripts\\StoreProcedures\\usp_GetAllExRateData.sql",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\SqlScripts\\StoreProcedures\\usp_GetAllExRateData.sql",
-              "RelativeToolTip": "CDFHEXRATE.Repository\\SqlScripts\\StoreProcedures\\usp_GetAllExRateData.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-02T06:06:46.058Z"
+              "Title": "nlog.config",
+              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\nlog.config",
+              "RelativeDocumentMoniker": "CDFHEXRETE\\nlog.config",
+              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\nlog.config",
+              "RelativeToolTip": "CDFHEXRETE\\nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-21T08:33:33.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExRate_Src.sql",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\SqlScripts\\Tables\\ExRate_Src.sql",
-              "RelativeDocumentMoniker": "CDFHEXRATE.Repository\\SqlScripts\\Tables\\ExRate_Src.sql",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\SqlScripts\\Tables\\ExRate_Src.sql",
-              "RelativeToolTip": "CDFHEXRATE.Repository\\SqlScripts\\Tables\\ExRate_Src.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-02T06:06:25.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExRate.sql",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\SqlScripts\\Tables\\ExRate.sql",
-              "RelativeDocumentMoniker": "CDFHEXRATE.Repository\\SqlScripts\\Tables\\ExRate.sql",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\SqlScripts\\Tables\\ExRate.sql",
-              "RelativeToolTip": "CDFHEXRATE.Repository\\SqlScripts\\Tables\\ExRate.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-02T06:04:35.01Z"
+              "DocumentIndex": 0,
+              "Title": "ScheduleRateService.cs",
+              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Services\\ScheduleRateService.cs",
+              "RelativeDocumentMoniker": "CDFHEXRETE\\Services\\ScheduleRateService.cs",
+              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Services\\ScheduleRateService.cs",
+              "RelativeToolTip": "CDFHEXRETE\\Services\\ScheduleRateService.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAiwJoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:56:56.818Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\Contexts\\DBContext.cs",
-              "RelativeDocumentMoniker": "CDFHEXRATE.Repository\\Contexts\\DBContext.cs",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\Contexts\\DBContext.cs",
-              "RelativeToolTip": "CDFHEXRATE.Repository\\Contexts\\DBContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAvwB0AAAA2AAAAAAAAAA==",
+              "Title": "AAMSettings.cs",
+              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Models\\AAMSettings.cs",
+              "RelativeDocumentMoniker": "CDFHEXRETE\\Models\\AAMSettings.cs",
+              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Models\\AAMSettings.cs",
+              "RelativeToolTip": "CDFHEXRETE\\Models\\AAMSettings.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T06:03:01.125Z"
+              "WhenOpened": "2025-04-21T07:56:17.547Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ResHomeRate.cs",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\DTOS\\ResDTOs\\ResHomeRate.cs",
-              "RelativeDocumentMoniker": "CDFHEXRETE\\DTOS\\ResDTOs\\ResHomeRate.cs",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\DTOS\\ResDTOs\\ResHomeRate.cs",
-              "RelativeToolTip": "CDFHEXRETE\\DTOS\\ResDTOs\\ResHomeRate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Title": "AAMInfo.cs",
+              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Models\\AAMInfo.cs",
+              "RelativeDocumentMoniker": "CDFHEXRETE\\Models\\AAMInfo.cs",
+              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Models\\AAMInfo.cs",
+              "RelativeToolTip": "CDFHEXRETE\\Models\\AAMInfo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvyEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:58:51.94Z"
+              "WhenOpened": "2025-04-21T07:54:02.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AAMService.cs",
+              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Services\\AAMService.cs",
+              "RelativeDocumentMoniker": "CDFHEXRETE\\Services\\AAMService.cs",
+              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Services\\AAMService.cs",
+              "RelativeToolTip": "CDFHEXRETE\\Services\\AAMService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwBEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:51:16.538Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ExRate.cs",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\Models\\ExRate.cs",
-              "RelativeDocumentMoniker": "CDFHEXRATE.Repository\\Models\\ExRate.cs",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRATE.Repository\\Models\\ExRate.cs",
-              "RelativeToolTip": "CDFHEXRATE.Repository\\Models\\ExRate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Title": "IAAMService.cs",
+              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Interfaces\\IAAMService.cs",
+              "RelativeDocumentMoniker": "CDFHEXRETE\\Interfaces\\IAAMService.cs",
+              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Interfaces\\IAAMService.cs",
+              "RelativeToolTip": "CDFHEXRETE\\Interfaces\\IAAMService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA4AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T05:52:08.703Z"
+              "WhenOpened": "2025-04-21T07:50:37.637Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ScheduleRateService.cs",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Services\\ScheduleRateService.cs",
-              "RelativeDocumentMoniker": "CDFHEXRETE\\Services\\ScheduleRateService.cs",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Services\\ScheduleRateService.cs",
-              "RelativeToolTip": "CDFHEXRETE\\Services\\ScheduleRateService.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAcwJ0AAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T03:28:47.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IScheduleRateService.cs",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Interfaces\\IScheduleRateService.cs",
-              "RelativeDocumentMoniker": "CDFHEXRETE\\Interfaces\\IScheduleRateService.cs",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Interfaces\\IScheduleRateService.cs",
-              "RelativeToolTip": "CDFHEXRETE\\Interfaces\\IScheduleRateService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T01:41:10.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetRateJob.cs",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Invocables\\GetRateJob.cs",
-              "RelativeDocumentMoniker": "CDFHEXRETE\\Invocables\\GetRateJob.cs",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Invocables\\GetRateJob.cs",
-              "RelativeToolTip": "CDFHEXRETE\\Invocables\\GetRateJob.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswBQAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T03:42:13.345Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Program.cs",
-              "RelativeDocumentMoniker": "CDFHEXRETE\\Program.cs",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Program.cs",
-              "RelativeToolTip": "CDFHEXRETE\\Program.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAgwJgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T03:31:44.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.Staging.json",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\appsettings.Staging.json",
-              "RelativeDocumentMoniker": "CDFHEXRETE\\appsettings.Staging.json",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\appsettings.Staging.json",
-              "RelativeToolTip": "CDFHEXRETE\\appsettings.Staging.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-31T08:08:06.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CDFHEXRETE\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\appsettings.Development.json",
-              "RelativeToolTip": "CDFHEXRETE\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-05T03:26:48.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\appsettings.json",
               "RelativeDocumentMoniker": "CDFHEXRETE\\appsettings.json",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\appsettings.json",
+              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\appsettings.json",
               "RelativeToolTip": "CDFHEXRETE\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-05T03:32:39.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.Production.json",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\appsettings.Production.json",
-              "RelativeDocumentMoniker": "CDFHEXRETE\\appsettings.Production.json",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\appsettings.Production.json",
-              "RelativeToolTip": "CDFHEXRETE\\appsettings.Production.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-31T08:11:13.256Z"
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Program.cs",
+              "RelativeDocumentMoniker": "CDFHEXRETE\\Program.cs",
+              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Program.cs",
+              "RelativeToolTip": "CDFHEXRETE\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:31:44.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CDFHEXRETE\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CDFHEXRETE\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAkwB0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -277,27 +180,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "home.js",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\wwwroot\\js\\home.js",
+              "DocumentMoniker": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\wwwroot\\js\\home.js",
               "RelativeDocumentMoniker": "CDFHEXRETE\\wwwroot\\js\\home.js",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\wwwroot\\js\\home.js",
+              "ToolTip": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE\\wwwroot\\js\\home.js",
               "RelativeToolTip": "CDFHEXRETE\\wwwroot\\js\\home.js",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-27T05:42:07.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HomeService.cs",
-              "DocumentMoniker": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Services\\HomeService.cs",
-              "RelativeDocumentMoniker": "CDFHEXRETE\\Services\\HomeService.cs",
-              "ToolTip": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE\\Services\\HomeService.cs",
-              "RelativeToolTip": "CDFHEXRETE\\Services\\HomeService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAArwCwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T03:26:57.425Z"
             }
           ]
         }

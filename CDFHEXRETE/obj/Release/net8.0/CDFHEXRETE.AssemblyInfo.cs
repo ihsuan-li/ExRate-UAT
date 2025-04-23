@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CDFHEXRETE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3478632449b014dd2985b8eb94247f034177042")]
 [assembly: System.Reflection.AssemblyProductAttribute("CDFHEXRETE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CDFHEXRETE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

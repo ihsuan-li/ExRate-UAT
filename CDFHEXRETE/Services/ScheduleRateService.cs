@@ -1,6 +1,7 @@
 ﻿using CDFHEXRATE.Repository.Models;
 using CDFHEXRETE.Common;
 using CDFHEXRETE.Interfaces;
+using CDFHEXRETE.Models;
 using CDFHEXRETE.Models.Config;
 using Dapper;
 using Microsoft.Data.SqlClient;
@@ -12,60 +13,71 @@ namespace CDFHEXRETE.Services
     public class ScheduleRateService : IScheduleRateService
     {
         private readonly ILogger<ScheduleRateService> _logger;
-        private readonly ConnectAccountDataConfig _connectAccountDataConfig;
         private readonly IConfiguration _config;
+        private readonly IAAMService _aamService;
 
-        public ScheduleRateService(ILogger<ScheduleRateService> logger, IOptions<ConnectAccountDataConfig> connectAccountDataConfig, IConfiguration config)
+        public ScheduleRateService(
+            ILogger<ScheduleRateService> logger,
+            IConfiguration config,
+            IAAMService aamService)
         {
             _logger = logger;
-            _connectAccountDataConfig = connectAccountDataConfig.Value;
             _config = config;
+            _aamService = aamService;
+        }
+
+        private async Task<string> GetExRateDbConnection()
+        {
+            try
+            {
+                // 使用原有的加密連線字串方式
+                var connectionString = SystemShared.BuildConnectionString("DbConnect");
+                return connectionString;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"取得 cdfh_exrate 連線字串失敗: {ex.Message}");
+                throw;
+            }
         }
 
         /// <summary>
-        /// 取得連線至DB-[TRMDDB]的連線資訊
+        /// 取得連線至DB-[FHMDDB]的連線資訊
         /// </summary>
         /// <returns></returns>
-        public ConnectAccountData GetConnectAccountData()
+        public async Task<ConnectAccountData> GetConnectAccountDataAsync()
         {
-            var connectionString = SystemShared.BuildConnectionString("UPDBConnect");
             var datas = new ConnectAccountData();
-            SqlConnection conn = new SqlConnection(connectionString);
-
-            using (SqlDataAdapter sda = new SqlDataAdapter(@"
-            EXEC usp_GetConnectAccountData @SqlSysNo, @SqlAccount, @DBName", conn))
-            using (DataSet ds = new DataSet())
+            try
             {
-                sda.SelectCommand.Parameters.Add("@SqlSysNo", SqlDbType.VarChar).Value = _connectAccountDataConfig.SqlSysNo;
-                sda.SelectCommand.Parameters.Add("@SqlAccount", SqlDbType.VarChar).Value = _connectAccountDataConfig.SqlAccount;
-                sda.SelectCommand.Parameters.Add("@DBName", SqlDbType.VarChar).Value = _connectAccountDataConfig.DBName;
-                try
+                // 非同步方法的同步包裝，直接呼叫不傳入參數
+                var aamInfo = Task.Run(async () => await _aamService.Get()).Result;
+                if (aamInfo == null)
                 {
-                    sda.Fill(ds);
-                    var result = ds.Tables[0].AsEnumerable().Where(x => x.Field<string>("DatabaseName")!.Trim() == _connectAccountDataConfig.DBName).FirstOrDefault();
-                    if (result != null)
-                    {
-                        datas.ServerName = result["ServerName"].ToString()!.Trim();
-                        datas.DatabaseName = result["DatabaseName"].ToString()!.Trim();
-                        datas.ConnectAccount = result["ConnectAccount"].ToString()!.Trim();
-                        datas.Password = result["Password"].ToString()!.Trim();
-                        _logger.LogInformation(@$"取得連線至DB-[FHMDDB]的連線資訊::成功::取得資訊::
-                                                    ServerName: {datas.ServerName}，
-                                                    DatabaseName: {datas.DatabaseName}，
-                                                    ConnectAccount: {datas.ConnectAccount}");
-                    }
-                    else
-                    {
-                        _logger.LogError("取得連線至DB-[FHMDDB]的連線資訊::查無資料");
-                        throw new Exception();
-                    }
+                    _logger.LogError("取得連線至DB-[FHMDDB]的連線資訊::失敗::無法取得 AAM 資訊");
+                    throw new Exception("無法取得 AAM 資訊");
                 }
-                catch (Exception ex)
-                {
-                    _logger.LogError($"取得連線至DB-[FHMDDB]的連線資訊::錯誤:{ex.Message}");
-                }
+
+                // 設定連線資訊
+                datas.ServerName = aamInfo.Address; // 從 AAM 取得地址
+                datas.DatabaseName = "FHMDDB"; // 固定資料庫名稱
+                datas.ConnectAccount = aamInfo.UsrName; // 從 AAM 取得使用者名稱
+                datas.Password = aamInfo.Content; // 從 AAM 取得密碼
+
+                _logger.LogInformation(@$"取得連線至DB-[FHMDDB]的連線資訊::成功::取得資訊::
+                                ServerName: {datas.ServerName}，
+                                DatabaseName: {datas.DatabaseName}，
+                                ConnectAccount: {datas.ConnectAccount}");
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"取得連線至DB-[FHMDDB]的連線資訊::錯誤:{ex.Message}");
             }
             return datas;
+        }
+        public ConnectAccountData GetConnectAccountData()
+        {
+            return GetConnectAccountDataAsync().GetAwaiter().GetResult();
         }
 
         /// <summary>
@@ -78,9 +90,8 @@ namespace CDFHEXRETE.Services
         {
             try
             {
-                // 建立「usp_GetAllExRateData」連線字串
+                // 建立連線字串
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                // server=XXX;user=sa;password=12345678;database=TRMDDB;
                 builder.ConnectionString = $"server={connectData.ServerName};user={connectData.ConnectAccount};password={connectData.Password};database={connectData.DatabaseName}";
                 builder.IntegratedSecurity = false;
                 builder.TrustServerCertificate = true;
@@ -96,21 +107,21 @@ namespace CDFHEXRETE.Services
                     var sql = @$"EXEC usp_GetAllExRateData @CountryShortName, @date, @type, @striReferenceCurrency";
                     var openDatas = await conn.QueryAsync<ExRate>(sql, new
                     {
-                       // CountryShortName = _config.GetValue<string>("CountryShortName"),
+                        CountryShortName = _config["CountryShortName"],
                         date = date, // 資料日期，必要輸入{格式：YYYY/MM/DD}
                         type = "1", // 匯率報價時點，必要輸入{'1'-09:30報價(早盤)、'2'-16:35報價(收盤)}
                         striReferenceCurrency = "" // 被報價幣{可指定幣別，若放''表示全部被報價幣均回傳}
                     });
                     var closeDatas = await conn.QueryAsync<ExRate>(sql, new
                     {
-                       // CountryShortName = _config.GetValue<string>("CountryShortName"),
+                        CountryShortName = _config["CountryShortName"],
                         date = date, // 資料日期，必要輸入{格式：YYYY/MM/DD}
                         type = "2", // 匯率報價時點，必要輸入{'1'-09:30報價(早盤)、'2'-16:35報價(收盤)}
                         striReferenceCurrency = "" // 被報價幣{可指定幣別，若放''表示全部被報價幣均回傳}
                     });
 
                     var result = openDatas.Union(closeDatas);
-                    _logger.LogError($"取得當日所有匯率::成功::共 {result.Count()} 筆");
+                    _logger.LogInformation($"取得當日所有匯率::成功::共 {result.Count()} 筆");
                     return result;
                 }
             }
@@ -124,28 +135,23 @@ namespace CDFHEXRETE.Services
         /// <summary>
         /// 更新當日所有匯率
         /// </summary>
-        /// <param name="connectData"></param>
-        /// <param name="date"></param>
-        /// <param name="type"></param>
+        /// <param name="listRate"></param>
         /// <returns></returns>
         public async Task UpdateAllExRateData(List<ExRate> listRate)
         {
             try
             {
                 // 更新匯率資料            
-                var connectionString = SystemShared.BuildConnectionString("DbConnect"); // 取得ExRate的資料庫
+                var connectionString = await GetExRateDbConnection();
                 SqlConnection conn = new SqlConnection(connectionString);
                 await conn.OpenAsync();
                 foreach (var item in listRate)
                 {
-                    /// WHERE CountryShortName = @CountryShortName
-                    /// WHERE CountryShortName = @CountryShortName
                     SqlCommand cmd = conn.CreateCommand();
                     cmd.CommandText = $@"
                         IF EXISTS(SELECT *
-                                    FROM ExRate
-                                  
-                                     AND DataDate = @DataDate
+                                    FROM ExRate 
+                                     WHERE DataDate = @DataDate
                                      AND ExRateType = @ExRateType
                                      AND ReferenceCurrency = @ReferenceCurrency)
                                 BEGIN
@@ -158,8 +164,7 @@ namespace CDFHEXRETE.Services
                                            USDOfferExRate = @USDOfferExRate,
                                            USDSettleExRate = @USDSettleExRate,
                                            SyncTime = @SyncTime
-
-                                       AND DataDate = @DataDate
+                                       WHERE DataDate = @DataDate
                                        AND ExRateType = @ExRateType
                                        AND ReferenceCurrency = @ReferenceCurrency
                                 END
@@ -175,7 +180,7 @@ namespace CDFHEXRETE.Services
                                 END
                     ";
                     cmd.CommandType = CommandType.Text;
-                    /// cmd.Parameters.Add("@CountryShortName", SqlDbType.VarChar).Value = item.CountryShortName; // 國別
+                    cmd.Parameters.Add("@CountryShortName", SqlDbType.VarChar).Value = _config["CountryShortName"]; // 國別
                     cmd.Parameters.Add("@DataDate", SqlDbType.Date).Value = item.DataDate; // 資料日期
                     cmd.Parameters.Add("@ExRateType", SqlDbType.VarChar).Value = item.ExRateType; // 類型: 1早盤、2收盤
                     cmd.Parameters.Add("@ReferenceCurrency", SqlDbType.VarChar).Value = item.ReferenceCurrency; // 交易國別

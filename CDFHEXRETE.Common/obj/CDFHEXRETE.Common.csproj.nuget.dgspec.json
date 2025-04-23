@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE.Common\\CDFHEXRETE.Common.csproj": {}
+    "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE.Common\\CDFHEXRETE.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE.Common\\CDFHEXRETE.Common.csproj": {
+    "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE.Common\\CDFHEXRETE.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE.Common\\CDFHEXRETE.Common.csproj",
+        "projectUniqueName": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE.Common\\CDFHEXRETE.Common.csproj",
         "projectName": "CDFHEXRETE.Common",
-        "projectPath": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE.Common\\CDFHEXRETE.Common.csproj",
+        "projectPath": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE.Common\\CDFHEXRETE.Common.csproj",
         "packagesPath": "C:\\Users\\cdibi055\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cdibi055\\Downloads\\CDFHEXRETE-SourceCode-2025-03-27\\CDFHEXRETE\\CDFHEXRETE.Common\\obj\\",
+        "outputPath": "C:\\Users\\cdibi055\\Desktop\\CDFHEXRETE\\CDFHEXRETE.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
